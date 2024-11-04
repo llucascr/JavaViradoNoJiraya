@@ -31,6 +31,27 @@ public class Operadores {
             System.out.println("Fora da lei");
         }
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+
+        if(valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation) {
+            System.out.println("Dinheiro sufisiente para compar o Produto");
+        }else {
+            System.out.println("Dinheiro insuficiente para comprar o Produto");
+        }
+
+        // = += -= *= /= %=
+        double bonus = 1800;
+        bonus += 1000;
+        System.out.println("Bonus: " + bonus);
+
+        // ++ --
+        int contador1 = 0;
+        int contador2 = 0;
+        System.out.println("contador++: " + contador1++); // imprime a variavel depois soma
+        System.out.println("++contador: " + ++contador2); // soma e depois imprime
+
 
     }
 }
