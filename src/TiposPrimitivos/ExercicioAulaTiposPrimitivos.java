@@ -1,3 +1,5 @@
+package TiposPrimitivos;
+
 public class ExercicioAulaTiposPrimitivos {
     public static void main(String[] args) {
         String nome = "Lucas";

@@ -1,4 +1,6 @@
-public class Operadores {
+package Operadores;
+
+public class AulaOperadores {
     public static void main(String[] args) {
         // + - / *
         int num1 = 10;
