@@ -1,4 +1,4 @@
-package OrientacaoObjetos.Classes;
+package Classes;
 
 public class AulaClasses {
     public static void main(String[] args) {
