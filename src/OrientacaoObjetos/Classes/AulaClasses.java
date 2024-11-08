@@ -1,4 +1,4 @@
-package Classes;
+package OrientacaoObjetos.Classes;
 
 public class AulaClasses {
     public static void main(String[] args) {
@@ -13,10 +13,20 @@ public class AulaClasses {
         estudante2.idade = 19;
         estudante2.sexo = 'F';
 
+        // Referencia de Objeto
+        estudante = estudante2;
+
+        System.out.println("Estudante 1");
         System.out.println(estudante.nome); // Lucas
         System.out.println(estudante.idade); // 19
         System.out.println(estudante.sexo); // M
-        System.out.println(estudante); // endereço de memoria
+//        System.out.println(estudante); // endereço de memoria
+
+        System.out.println("Estudante 2");
+        System.out.println(estudante.nome); // Lucas
+        System.out.println(estudante.idade); // 19
+        System.out.println(estudante.sexo); // M
+//        System.out.println(estudante); // endereço de memoria
 
     }
 }
